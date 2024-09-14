@@ -24,3 +24,9 @@ An interface-based tool for semi-manual behaviour detection.
 The compound scores as well as rasters from the different behaviours and the original movie are all integrated within the GUI.
 The user can edit some of the threshold directly via the GUI as well as edit the episodes as needed.*  
 ![image](https://github.com/user-attachments/assets/af4dd936-e5dd-4dc8-81b6-d8d407dbe50c)
+
+## Deeplabcut model
+Resnet-152 model refined on 4000+ frames from very diverse environments and top cameras, with/without ECG/miniscope/optogenetics connectors and cables.
+Body parts: ears, snout, tailbase, tailend, tailmiddle, tailquarter, paws.
+Labeling was mainly restricted to non-obstructed areas: the paws will for instance not be detected if they are not visible, which we made use of for behaviour detection.
+*Labeled data is available upon request to anyone wishing to use them as training data.*
