@@ -6,8 +6,8 @@ An interface-based contour tracking tool.
 *Uses common image processing methods to retrieve mouse contour, center of
 gravity, as well as a motion measure (frame-to-frame change in surface).
 Works for RGB and thermal movies.*  
-![image](https://github.com/user-attachments/assets/d465ea2c-ccc3-4ea2-a152-5a90626488ea)
 ![image](https://github.com/user-attachments/assets/c175bb36-4251-4e63-b466-bcca9b22428f)
+![image](https://github.com/user-attachments/assets/d465ea2c-ccc3-4ea2-a152-5a90626488ea)
 
 
 ## Check_Freezing
