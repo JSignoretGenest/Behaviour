@@ -22,5 +22,4 @@ An interface-based tool for semi-manual behaviour detection.
 *Uses body part coordinates extracted via Deeplabcut to process custom compound metrics that are then thresholded to extract behaviours. A simple algorithm ensures that behaviours are detected in a logical order and do not overlap.
 The compound scores as well as rasters from the different behaviours and the original movie are all integrated within the GUI.
 The user can edit some of the threshold directly via the GUI as well as edit the episodes as needed.*  
-![image](https://github.com/user-attachments/assets/3b509ac9-9040-4bc8-8611-0cb079c40853)
-
+![image](https://github.com/user-attachments/assets/af4dd936-e5dd-4dc8-81b6-d8d407dbe50c)
