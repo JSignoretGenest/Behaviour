@@ -12,7 +12,7 @@ Works for RGB and thermal movies.*
 
 ## Check_Freezing
 An interface-based "freezing"detection tool.  
-*Uses the motion measure output from Prepare_Tracking to extract immobility bout via thresholding.
+*Uses the motion measure output from Prepare_Tracking to extract immobility bouts via thresholding.
 The user can select a fitting threshold, choose a merging window (if two episodes are closer than x, they are merged), and a minimum duration value (episodes below the value are discarded).
 Additionally, each episode can be edited by clicking on it and dragging the start/end time, and "exclusion" periods can be added.*  
 ![image](https://github.com/user-attachments/assets/6a377057-a12c-4c35-915b-48268d834d98)
