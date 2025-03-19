@@ -42,7 +42,7 @@ classdef Prepare_Tracking<handle
 %       - Test with different types of data (larger movie resolution might
 %       decrease the display performance)
 %
-%     Copyright (C) 2020 Jérémy Signoret-Genest, DefenseCircuitsLab
+%     Copyright (C) 2020 JÃ©rÃ©my Signoret-Genest, DefenseCircuitsLab
 %     Initial version: original code 2018, current form early 2019
 %     Current version: 25/07/2020     
 %
@@ -1838,7 +1838,7 @@ methods(Hidden)
                  while CurrObj.Movie.hasFrame,
                      FrameCount = FrameCount + 1;
                      [closeBW,CC] = obj.ProcessFrame('Process');
-                     Times(FrameCount) = CurrObj.CurrentTime;
+                     Times(FrameCount) = CurrObj.Movie.CurrentTime;
                      if ~isnan(closeBW),
                          MaskContour{1} = MaskContour{2};
                          MaskContour{2} = closeBW;
